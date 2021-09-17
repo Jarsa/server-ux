@@ -25,6 +25,8 @@
                 <field
                     name="python_code"
                     attrs="{'invisible': [('definition_type', 'not in', ('formula', 'domain_formula'))]}"
+                    widget="ace"
+                    options="{'mode': 'python'}"
                 />
             </field>
         </field>
